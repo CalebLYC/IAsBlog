@@ -1,0 +1,11 @@
+.manage{
+    margin-top: 10px;
+}
+
+.manage a{
+    color: rgb(172, 147, 65);
+}
+
+span.deletePost{
+    color: red;
+}

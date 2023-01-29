@@ -1,0 +1,115 @@
+*, body, ::after, ::before, a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/***********************Acceuil***********************/
+.slider{
+    background: url(../img/bg5.jpeg);
+    width: 100%;
+    height: 350px;
+}
+
+
+.slider h1{
+    color: rgb(141, 67, 113);
+}
+.slider p{
+    color: rgb(172, 147, 65);
+}
+
+/*----Bouton de lancement---------*/
+.start-btn{
+    color: rgb(172, 147, 65);
+    background-color: rgb(141, 67, 113);
+    transition: .3s;
+}
+.start-btn:hover{
+    background-color: rgb(172, 147, 65);
+    color: rgb(141, 67, 113);
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.headlines, .mainContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+.headline{
+    width: 30%;
+    min-height: 400px;
+    border: solid 1px ;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 21px;
+}
+.headline h2, .mainContent-headline h2{
+    color: rgb(141, 67, 113);
+}
+
+
+.mainContent-headline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    min-height: 350px;
+    background-color: rgb(172, 147, 65);
+    border: solid 1px ;
+    border-radius: 25px;
+    margin: 5px;
+    position: relative;
+}
+
+.mainContent-headline:nth-child(2),
+.mainContent-headline:nth-child(5),
+.mainContent-headline:nth-child(8){
+    left: 5%;
+    top: 15%;
+}
+.headline-blog{
+    width: 80%;
+    margin-bottom: 20px;
+    min-height: 250px;
+}
+.mainContent-headline div{
+    font-size: 15pt;
+    color: #DDD;
+}
+.btn-headline{
+    display: block;
+    padding: 25px;
+    margin: 5px;
+    margin-top: 15px;
+    background-color: #DDD;
+    color: rgb(141, 67, 113);
+    border-radius: 10px;
+    transition: .3s;
+}
+.btn-headline:hover{
+    background-color: #DDD;
+    color: rgb(141, 67, 113);
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+
+@media screen and (max-width:1260px) {
+    .headline{
+        width: 32%;
+    }
+    .mainContent-headline{
+        flex-direction: column;
+    }
+    .headline h2, .mainContent-headline h2{
+        font-size: 13pt;
+    }
+    .mainContent-headline div{
+        font-size: 11pt;
+    }
+}

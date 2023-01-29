@@ -1,0 +1,9 @@
+@extends('layouts.layout')
+@section('otherLink')
+    @yield('otherLinks')
+@endsection
+@section('main')
+    @include('layouts.partials.sidebar')
+    @yield('content')
+    @include('layouts.partials.footer')
+@endsection

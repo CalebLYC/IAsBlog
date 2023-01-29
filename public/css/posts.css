@@ -1,0 +1,53 @@
+
+/************************Articles***********************/
+.postsCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 120%;
+    margin-top: 25px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.postsCard h3{
+    color: rgb(141, 67, 113);
+}
+
+.postsCard strong{
+    color: rgba(0, 0, 0, .5);
+}
+
+.postsMain{
+    z-index: 5;
+}
+
+
+@media screen and (max-width:1260px) {
+    .sidebar{
+        display: none;
+        visibility: hidden;
+    }
+    .postNav{
+        margin: 0;
+    }
+    .postsMain{
+        left: 0;
+    }
+    .postsMainContent{
+        left: 0;
+    }
+    .postsCard{
+        margin-top: 20px;
+    }
+
+    .post-image img{
+        width: 50%;
+        height: 300px;
+    }
+}

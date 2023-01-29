@@ -1,0 +1,94 @@
+/******************Histoire*****************/
+.history{
+    width: 60%;
+}
+
+.history-content{
+    position: relative;
+    word-wrap: break-word;
+}
+
+.history h2{
+    color: rgb(141, 67, 113);
+}
+
+.history-image img{
+    width: 100%;
+    height: 600px;
+    margin: 5px;
+}
+
+small.field{
+    color: rgba(0, 0, 0, .5);
+    margin: 2px;
+}
+
+.history-content{
+    margin: 20px;
+}
+
+.history-footer-first h3{
+    color: rgba(0, 0, 0, .5);
+}
+
+.history-footer-first form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.history-footer-first form textarea{
+    width: 70%;
+    height: 120px;
+    border-radius: 21px;
+    outline: none;
+    margin: 5px;
+}
+.history-footer-first form textarea{
+    width: 70%;
+    height: 200px;
+    border-radius: 21px;
+    outline: none;
+    margin: 5px;
+}
+.history-footer-first form input[type="submit"]{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, .5);
+    color: rgb(172, 147, 65);
+    border-radius: 10px;
+}
+
+.history-footer-second h3{
+    color: rgb(172, 147, 65);
+}
+
+.history-image img{
+    width: 100%;
+    height: 600px;
+}
+
+
+/*******************Commentaires***************************/
+.comments{
+    margin: 25px;
+}
+
+.comment{
+    margin: 10px;
+    padding: 5px;
+    border: solid 1px rgb(172, 147, 65);
+    border-radius: 10px;
+}
+
+.comment-content{
+    margin: 5px;
+}
+
+
+@media screen and (max-width:1260px) {
+    .history-image img{
+        width: 100%;
+        height: 300px;
+    }
+}
